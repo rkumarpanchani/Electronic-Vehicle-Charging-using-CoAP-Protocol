@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="project.electronic_vehicle_charging.IoT_Gateway_Application" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/IoT_Gateway_Application.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="100" width="167" x="35" y="-15"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="project.electronic_vehicle_charging.IoT_Gateway_Controller" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/IoT_Gateway_Controller.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="318" y="59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="3" language="java" name="project.electronic_vehicle_charging" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="150" y="-54"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="project.electronic_vehicle_charging.Actuators" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Actuators" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="287" x="527" y="-82"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" 
+    name="project.electronic_vehicle_charging.Actuators.Smartly_Vehicle_Usage_In_Emergency_Case" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Actuators/Smartly_Vehicle_Usage_In_Emergency_Case.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="672" y="33"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="project.electronic_vehicle_charging.Actuators.Smartly_Vehicle_Battery_Charging" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Actuators/Smartly_Vehicle_Battery_Charging.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="965" y="33"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" 
+    name="project.electronic_vehicle_charging.Actuators.Smartly_Vehicle_Battery_Charging.SetSensorData" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Actuators/Smartly_Vehicle_Battery_Charging.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="964" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" 
+    name="project.electronic_vehicle_charging.Actuators.Smartly_Vehicle_Usage_In_Emergency_Case.SetSensor2Data" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Actuators/Smartly_Vehicle_Usage_In_Emergency_Case.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="671" y="183"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" 
+    name="project.electronic_vehicle_charging.Sensors.Vehicle_Battery_Consumption_In_Emergency_Case" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Sensors/Vehicle_Battery_Consumption_In_Emergency_Case.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1354" y="43"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="project.electronic_vehicle_charging.Sensors" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Sensors" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1331" y="-33"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" 
+    name="project.electronic_vehicle_charging.Sensors.Vehicle_Battery_Consumption_In_Emergency_Case.GetSensor2Data" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Sensors/Vehicle_Battery_Consumption_In_Emergency_Case.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1355" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" 
+    name="project.electronic_vehicle_charging.Sensors.Smartly_Sensor_Get_Battery_Status.GetSensorData" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Sensors/Smartly_Sensor_Get_Battery_Status.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1668" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="project.electronic_vehicle_charging.Sensors.Smartly_Sensor_Get_Battery_Status" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="/Electronic_Vehicle_Charging_1270130/src/main/java/project/electronic_vehicle_charging/Sensors/Smartly_Sensor_Get_Battery_Status.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1665" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="java.lang.Object" project="Electronic_Vehicle_Charging_1270130" 
+    file="C:/Program Files/Java/jdk-12.0.2/lib/jrt-fs.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="795" y="431"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="org.eclipse.californium.core.CoapResource" 
+    project="Electronic_Vehicle_Charging_1270130" 
+    file="C:/Users/Ramesh Kumar/.m2/repository/org/eclipse/californium/californium-core/1.0.0/californium-core-1.0.0.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="794" y="1238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <nesting id="18">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <nesting id="19">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <nesting id="28">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

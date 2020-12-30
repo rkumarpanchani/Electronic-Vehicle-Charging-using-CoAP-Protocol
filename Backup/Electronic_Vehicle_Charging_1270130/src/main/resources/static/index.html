@@ -1,0 +1,416 @@
+<!DOCTYPE html> <!--Using HTML5-->
+<html>
+
+<head>
+<meta charset="utf-8"> <!-- Required meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Electronic Vehicle Charging</title>
+ 
+<!-- Bootstrap Dropdown -->  
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ 
+<style>  /* For Intro Purpose - Using Internal CSS Concept*/ 
+#intro{
+	background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+	color: #000000;
+}
+
+#intro h2{
+    font-weight: bold;
+    color: #0080c0;
+    margin-top: 10px; /*To get rid of useless gaps. You can write in negative as well e.g -7px*/
+    text-shadow:rgba(0,0,0,0.4) 2px 2px 5px; /* Opacity range is from 0 to 1 and I gave 0.4 here and rest 0,0,0 is black color*/
+}
+
+#intro h3{
+    color: #000000;
+    margin-top: 1px;
+}
+
+#intro h4{
+    color: #0080c0;
+}
+
+/* Bringing text to center*/
+section{
+    text-align: center; 
+}
+
+/* Cases 1 and 2 editors*/
+#features{
+    background-image: linear-gradient(to bottom, rgb(10,10,10), rgba(8, 11, 11, 0.6));
+    color: #000000;
+    border: 5px solid #575757; 
+ 	border-radius: 15px;
+}
+
+#features h4{
+    color: #ffffff;
+}
+
+#a{
+	font-weight: bold;
+	text-shadow:rgba(0,0,0,0.6) 1px 1px 3px;
+	padding: -1px -1px -1px;
+}
+
+/*Editing input buttons*/
+#t1{
+	background-color: #d9d9d9;
+	width: 10%;
+	text-align: center; 
+	border-radius: 10px;
+	cursor:pointer; /*This will display hand icon instead of simple pointer*/
+	font-family: tahoma,geneva,algerian;
+}
+ 
+#t2{
+	background-color: #d9d9d9;
+	width: 8%;
+	text-align: center;
+	border-radius: 10px; 
+	cursor:pointer; /*This will display hand icon instead of simple pointer*/
+	font-family: tahoma,geneva,algerian;
+}
+
+/*Editing output buttons*/
+#o{
+	width: 7%;
+	text-shadow:rgba(0,0,0,0.6) 3px 3px 5px;
+	border-radius: 0px;
+}
+
+#o1{
+	width: 22%;
+	text-shadow:rgba(0,0,0,0.6) 3px 3px 5px;
+	text-align: center; 
+	border-radius: 0px;
+}
+
+#o2{
+	width: 22%;
+	text-shadow:rgba(0,0,0,0.6) 3px 3px 5px;
+	text-align: center; 
+	border-radius: 0px;
+}
+
+/* Cases input editior*/
+input[type=text] {
+  background-color: #A9E6DF;
+  font-weight: bold;
+  width: 12%;
+  height: 35px;
+  padding: 5px 6px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Cases label editior for output part*/
+label{
+  background-color: #39C2BC;
+  color: white;
+  width: 14%;
+  height: 35px;
+  padding: 5px 6px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Footer editior*/
+#footer{
+    background-color: #009999;
+    color: #fff;
+    padding-top: -10px;
+	padding-bottom: 18px; 
+}
+
+#footer p{
+    margin: 0px;
+}
+
+/* For Images Editing*/
+div.logo{   
+	float:left;
+	max-width = 150%;
+	max-height = 150%;
+	margin-top: 5px;
+	margin-left: 30px;
+	margin-right: -30px;
+	margin-bottom: 0px;
+	border-radius: 50px;
+	/*Images borders editor*/
+	position:relative;
+    margin:-20 1px;
+    overflow:hidden
+}
+
+.logo:hover /*For class we use dot.*/
+{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+div.auto{  
+	float:right;
+	max-width = 150%;
+	max-height = 150%;
+	margin-top: 25px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+}
+
+.auto:hover /*For class we use dot.*/
+{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+div.case_1{   
+	float:left;
+	max-width = 100%;
+	max-height = 100%;
+	margin-top: -160px;
+	margin-left: 1038px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	/*Image Edges*/
+	position:relative;
+	overflow:hidden;
+	border-radius: 25px;
+}
+
+div.case_2{   	
+	float:left;
+	max-width = 100%;
+	max-height = 100%;
+	margin-top: -165px;
+	margin-left: 1165px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	/*Image Edges*/
+	position:relative;
+	overflow:hidden;
+	border-radius: 30px;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+</style>
+</head>
+
+<body onload="viewSensorData(); viewSensor2Data()">
+	<div class = "logo">		
+		<img  src="car2.gif"  alt="University Logo picture" width="280" height="160"></img>
+	</div>
+
+	<div class = "auto">
+		<img  src="car.png" alt="Logo picture" width="300" height="140">
+	</div>
+	
+	<section id = "intro"> 
+		<div class="container text-center">	 
+			<h2 class="display-4">Frankfurt University of Applied Sciences</h2>
+			<h3 id="a" class="display-5">Electronic Vehicle Charging</h3>
+			<h4 class="display-5">Development of a Smart-Home Use-Case using an Emulated IoT Environment</h4>
+			<h4 class="display-5">In this project, user can smartly charge his vehicle at home</h4>
+		</div>
+	</section>
+ 
+	<section id="features">
+		<div class="container text-center">
+				<button type="button" class="btn btn-danger">1st Use Case</button>	
+				<h4 class="display-5">Here, we have 2 options to charge our vehicle by using either Solar Panel or Home Electricity</h4>
+				<h4 class="display-5">We don't need any other source to charge it.</h4>
+				<h4 class="display-5"><em>Enter the time in hours i.e. from 0 to 24:</em></h4>	
+			</div>		
+	
+	<section>	
+		<div class="container text-center">
+			<!--<input id = "time" name="Time" type="time" required> -->
+			<input id="t1" placeholder="Input here..." name="id" type="text" style="text-align:center;"/>
+			<button id="b2" type="button" onclick="setSensorData()" class="glow-on-hover">Update the time</button>
+			<button id="b1" type="button" onclick="viewSensorData()" class="glow-on-hover">Current charging status</button>
+			<label id="o" for="output">Output: </label>
+			<label id="o1" for="output">Output: </label>
+			<h4 class="display-5"> </h4>
+			<div class = "case_1">		
+				<img  src="car_11.gif"  alt="University Logo picture" width="210" height="130"></img>
+			</div>
+		</div>
+	</section>
+	</section> 
+	
+	<section id="features">
+		<div class="container text-center">
+			<button type="button" class="btn btn-danger">2nd Use Case</button>
+			<h4 class="display-5">If battery status is greater than or equal to 30 %, then press the button to enable emergency power consumption</h4>
+			<h4 class="display-5">We will save 30% to utilize the vehicle in emergency situation</h4>
+			<h4 class="display-5"><em>Battery status:</em></h4>	
+		</div>				
+	<section>	
+		<div>
+			<!--<input id = "time" name="Time" type="time" required> -->
+			<input id="t2" placeholder="Input here..." name="id" type="text" style="text-align:center;"/>
+			<button id="b4" type="button" onclick="setSensor2Data()" class="glow-on-hover">Enter battery level</button>
+			<button id="b3" type="button" onclick="viewSensor2Data()" class="glow-on-hover">Turn on the emergency charging</button>
+			<label id="o" for="output2">Output: </label>
+			<label id="o2" for="output2">Output: </label>
+			<h4 class="display-5"> </h4>
+			<div class = "case_2">		
+				<img  src="car_22.gif"  alt="University Logo picture" width="190" height="130"></img>
+			</div>
+		</div>
+	</section>
+	</section>
+	
+	<footer id = "footer">
+        <div class = "container text-center">
+        	<h3 class="display-5">Thank you very much for using this Emulated IoT Environment</h3>
+            <p class = "lead"> Made with &hearts; By Ramesh Kumar</p>
+        </div>
+    </footer> 
+	
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+/*Here I wrote the Java Script code which works on the port number 5683*/
+function viewSensorData() {
+		$(document).ready(function () {
+	        $.ajax({
+	            type: "GET",
+	            url: "http://localhost:8080/getSensorData",
+	            contentType: "application/xml",
+	            dataType: "xml",
+	            success: function (xmlData) {                   
+	                console.log(xmlData);   
+	                $("#o1").text($(xmlData).find("SensorData").text()); //Binding output portion   
+	            },
+	            error: function (xhr) {
+	                alert(xhr.responseText);
+	            }
+	        });
+	    });
+	}
+
+/*Here I wrote the Java Script code which works on the port number 5685*/
+function viewSensor2Data() {
+	$(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/getSensor2Data",
+            contentType: "application/xml",
+            dataType: "xml",
+            success: function (xmlData) {                   
+                console.log(xmlData);                  
+                $("#o2").text($(xmlData).find("Sensor2Data").text()); //Binding output portion
+            },
+            error: function (xhr) {
+                alert(xhr.responseText);
+            }
+        });
+    });
+}
+	
+/*Here I wrote the Java Script code which works on the port number 5684*/	
+function setSensorData() {
+	var addData = "<SensorData>" + $("#t1").val() + "</SensorData>";
+	$(document).ready(function () {
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:8080/setSensorData",
+            contentType: "application/xml",
+            dataType: "xml",
+            data: addData,
+            success: function () {
+            	console.log("Success");
+                },
+            error: function (xhr) {
+                alert(xhr.responseText);
+            }
+        });
+    });
+}
+
+/*Here I wrote the Java Script code which works on the port number 5686*/	
+function setSensor2Data() {
+	var addData = "<Sensor2Data>" + $("#t2").val() + "</Sensor2Data>";
+	$(document).ready(function () {
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:8080/setSensor2Data",
+            contentType: "application/xml",
+            dataType: "xml", 
+            data: addData,
+            success: function () {
+            	console.log("Success");
+                },
+            error: function (xhr) {
+                alert(xhr.responseText);
+            }
+        });
+    });
+}
+</script>
+</html>
